@@ -1,0 +1,33 @@
+{
+  "name": "strapi-plugin-untransform-response",
+  "version": "0.1.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "strapi-plugin-untransform-response",
+    "description": "Override for default transformResponse to remove unnescessary data/attributes tags.",
+    "kind": "plugin"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@strapi/typescript-utils": "^4.6.0",
+    "typescript": "4.6.3"
+  },
+  "peerDependencies": {},
+  "author": {
+    "name": "antokhio"
+  },
+  "maintainers": [
+    {
+      "name": "antokhio"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json"
+  },
+  "license": "MIT"
+}
