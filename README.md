@@ -60,7 +60,7 @@ yarn strapi build
 
 ### Settings
 `/config/plugins.ts`
-```
+```ts
 export default ({ env }) => ({
   ...,
   'strapi-plugin-untransform-response': {
