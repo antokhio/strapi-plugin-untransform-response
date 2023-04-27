@@ -1,11 +1,16 @@
 {
   "name": "strapi-plugin-untransform-response",
-  "version": "0.1.0",
-  "description": "Strapi V4 plugin, that overrides default transformResponse to remove unnescessary data/attributes tags.",
+  "version": "0.1.1",
+  "description": "Strapi V4 plugin, that overrides default transformResponse to remove unnecessary data/attributes tags.",
   "strapi": {
     "name": "strapi-plugin-untransform-response",
-    "description": "Override for default transformResponse to remove unnescessary data/attributes tags.",
+    "description": "Override for default transformResponse to remove unnecessary data/attributes tags.",
     "kind": "plugin"
+  },
+  "homepage": "https://github.com/antokhio/strapi-plugin-untransform-response",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antokhio/strapi-plugin-untransform-response.git"
   },
   "dependencies": {},
   "devDependencies": {
