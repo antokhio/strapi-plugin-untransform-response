@@ -1,8 +1,23 @@
-# Strapi plugin untransform-response
+# strapi-plugin-untransform-response
 
-### Whati it does:
+## What it does:
 
-Efficently removes all the unnescessary data/attributes tags.
+Efficiently removes all the unnecessary data/attributes tags.
+
+## Installation 
+
+```py
+yarn add strapi-plugin-untransform-response
+
+or 
+
+npm install strapi-plugin-untransform-response
+```
+
+```py
+// DON'T FORGET
+yarn strapi build 
+```
 
 ### Before 
 ```json
@@ -43,10 +58,20 @@ Efficently removes all the unnescessary data/attributes tags.
 }
 ```
 
-### Installation 
-
-```py
-yarn add strapi-plugin-untransform-response
-or 
-npm install strapi-plugin-untransform-response
+### Settings
+`/config/plugins.ts`
 ```
+export default ({ env }) => ({
+  ...,
+  'strapi-plugin-untransform-response': {
+    enabled: false,  // TO DISABLE
+  },
+  ...,
+});
+```
+
+### Known issues
+
+Doubt `gql` is supported. 
+Currently overrides all transformResonse, in all controllers, so be advised.
+
