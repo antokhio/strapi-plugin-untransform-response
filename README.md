@@ -1,4 +1,5 @@
 # strapi-plugin-untransform-response
+##### `@strapi/* ^4.6.0`
 
 ## What it does:
 
