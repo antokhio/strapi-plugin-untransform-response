@@ -73,7 +73,7 @@ export default ({ env }) => ({
 
 ### Known issues
 
-Doubt `gql` is not supported. 
+`gql` is not supported.
 
 Currently overrides all transformResonse, in all controllers, so be advised.
 
